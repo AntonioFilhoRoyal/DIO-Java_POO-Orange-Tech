@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="edu.dio.bootcamp.Conteudo"/>
+    <fullyQualifiedTypeName name="edu.dio.bootcamp.Cursos"/>
+    <fullyQualifiedTypeName name="edu.dio.bootcamp.Mentoria"/>
+    <fullyQualifiedTypeName name="edu.dio.bootcamp.Curso"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="edu.dio.bootcamp.Dev"/>
+    <fullyQualifiedTypeName name="edu.dio.bootcamp.Bootcamp"/>
+</qualifiedTypeNameHistroy>

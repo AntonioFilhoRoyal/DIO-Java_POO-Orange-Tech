@@ -1,0 +1,38 @@
+package edu.dio.bootcamp.app;
+
+import java.time.LocalDate;
+
+import edu.dio.bootcamp.Bootcamp;
+import edu.dio.bootcamp.Conteudo;
+import edu.dio.bootcamp.Curso;
+import edu.dio.bootcamp.Dev;
+import edu.dio.bootcamp.Mentoria;
+
+public class app {
+
+	public static void main(String[] args) {
+		
+		Conteudo curso1 = new Curso();
+		curso1.setTitulo("Java Completo");
+		curso1.setDescricao("Curso Java completo");
+		curso1.setCargaHoraria(20);
+		
+		Conteudo mentoria1 = new Mentoria();
+		mentoria1.setTitulo("Camilla Java");
+		mentoria1.setDescricao("Falando sobre java");
+		mentoria1.setData(LocalDate.now());
+		
+		Bootcamp bootcamp1 = new Bootcamp();
+		bootcamp1.getConteudos().add(curso1);
+		bootcamp1.getConteudos().add(mentoria1);
+	
+		Dev dev1 = new Dev();
+		dev1.setNome("Antonio Filho");
+		dev1.inscreverBootamp(bootcamp1);
+		System.out.println(dev1.getConteudoInscrito());
+		dev1.progredir();
+		dev1.progredir();
+		System.out.println(dev1.getConteudoConcluido());
+	}
+
+}

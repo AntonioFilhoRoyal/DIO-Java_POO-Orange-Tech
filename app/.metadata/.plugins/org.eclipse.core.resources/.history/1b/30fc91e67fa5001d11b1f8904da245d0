@@ -1,0 +1,6 @@
+package edu.dio.bootcamp;
+
+public class Dev {
+	private String nome;
+	private Set<Conteudo> conteudInscrito = new LinkedHashMap<>();
+}

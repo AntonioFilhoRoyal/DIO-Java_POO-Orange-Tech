@@ -1,0 +1,13 @@
+package edu.dio.bootcamp;
+
+public class Cursos extends Conteudo{
+
+	private int cargaHoraria;
+	
+	
+	@Override
+	public double calcularXp() {
+		return cargaHoraria * XP_PADRAO;
+	}
+
+}

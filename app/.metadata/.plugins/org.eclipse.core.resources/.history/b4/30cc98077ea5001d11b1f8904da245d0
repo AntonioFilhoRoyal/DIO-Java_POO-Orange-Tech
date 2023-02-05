@@ -1,0 +1,23 @@
+package edu.dio.bootcamp.app;
+
+import edu.dio.bootcamp.Conteudo;
+import edu.dio.bootcamp.Cursos;
+import edu.dio.bootcamp.Mentoria;
+
+public class app {
+
+	public static void main(String[] args) {
+		
+		Conteudo curso = new Cursos();
+		Conteudo mentoria = new Mentoria();
+		
+		curso.setTitulo("Curso java");
+		curso.setDescricao("java em poo");
+		curso.setCargaHoraria(20);
+		
+		mentoria.setTitulo("Camilla");
+		mentoria.setData(LocalDate.noew());
+
+	}
+
+}

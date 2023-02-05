@@ -1,0 +1,51 @@
+package edu.dio.bootcamp;
+
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Objects;
+import java.util.Set;
+
+public class Dev {
+	private String nome;
+	private Set<Conteudo> conteudInscrito = new LinkedHashSet<>();
+	
+	public void inscreverBootamp(Bootcamp bootacamp) {}
+	
+	public void progredir() {}
+	
+	public void calcularTotalXp() {}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Set<Conteudo> getConteudInscrito() {
+		return conteudInscrito;
+	}
+
+	public void setConteudInscrito(Set<Conteudo> conteudInscrito) {
+		this.conteudInscrito = conteudInscrito;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(conteudInscrito, nome);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Dev other = (Dev) obj;
+		return Objects.equals(conteudInscrito, other.conteudInscrito) && Objects.equals(nome, other.nome);
+	}
+	
+}

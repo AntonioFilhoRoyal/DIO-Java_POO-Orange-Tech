@@ -1,0 +1,9 @@
+package edu.dio.bootcamp;
+
+import java.util.LinkedHashMap;
+import java.util.Set;
+
+public class Dev {
+	private String nome;
+	private Set<Conteudo> conteudInscrito = new LinkedHashSet<>();
+}
